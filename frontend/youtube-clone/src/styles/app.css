@@ -482,12 +482,9 @@ hr {
   margin-top: 56px;     
   margin-left: 200px; 
 }
-
 .sidebar.collapsed ~ .content {
   margin-left: 100px;
 }
-
-
 /* ===== VIDEOS ===== */
 .section-title{
  margin-left: 15px;
