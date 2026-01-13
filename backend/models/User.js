@@ -8,30 +8,24 @@ const userSchema = new mongoose.Schema(
       trim: true,
       unique: true
     },
-
     email: {
       type: String,
       required: true,
       unique: true,
       lowercase: true
     },
-
     password: {
       type: String,
       required: true
     },
-
     avatar: {
       type: String,
       default: ""
-    },
-    channel: {
+    },    channel: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Channel",
       default: null
     }
-  },
-  { timestamps: true }
+  },  { timestamps: true }
 );
-
 export default mongoose.model("User", userSchema);
