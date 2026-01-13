@@ -39,7 +39,7 @@ export const deleteComment = async (req, res) => {
       return res.status(403).json({ message: "You are not allowed to modify this comment" });
     }
     await comment.deleteOne();
-    res.json({ message: "Comment deleted" });
+    res.json({ message: "Comment Deleted" });
   } catch (error) {
     console.error("DELETE COMMENT ERROR:", error);
     res.status(500).json({ message: error.message });
@@ -52,11 +52,11 @@ export const deleteComment = async (req, res) => {
     const comment = await Comment.findById(req.params.id);
 
     if (!comment) {
-      return res.status(404).json({ message: "Comment not found" });
+      return res.status(404).json({ message: "Comment not Found" });
     }
 
     if (comment.user.toString() !== req.user.id) {
-      return res.status(403).json({ message: "You are not allowed to modify this comment" });
+      return res.status(403).json({ message: "You are not allowed to modify this Comment" });
     }
 
     comment.text = req.body.text;
