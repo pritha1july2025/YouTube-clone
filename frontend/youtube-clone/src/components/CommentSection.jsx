@@ -58,7 +58,6 @@ export default function CommentSection({ videoId }) {
       { headers: { Authorization: `Bearer ${token}` } }
     );
 
-   
     if (id === editingId) cancelEdit();
 
     fetchComments();
@@ -79,15 +78,16 @@ export default function CommentSection({ videoId }) {
         placeholder={editingId ? "Edit comment..." : "Add a comment"}
       />
 
+
       <button className="update-comment" onClick={editingId ? updateComment : addComment}>
         {editingId ? "Update" : "Post"}
       </button>
-
       {editingId && (
         <button className="cancel-button" onClick={cancelEdit} >
           Cancel
         </button>
       )}
+
 
       {/* COMMENTS LIST */}
       {comments.map((c) => (
