@@ -11,13 +11,11 @@ export default function CreateChannel() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const token = localStorage.getItem("token");
     if (!token) {
       alert("Please login again");
       return;
     }
-
     try {
       await axios.post(
         "http://localhost:5000/api/channels",
