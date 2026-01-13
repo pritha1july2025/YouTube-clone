@@ -6,10 +6,8 @@ import {
 } from "../controllers/channelController.js";
 
 const router = express.Router();
-
 // CREATE CHANNEL
 router.post("/", authMiddleware, createChannel);
-
 // GET MY CHANNEL
 router.get("/me", authMiddleware, getMyChannel);
 
