@@ -5,9 +5,6 @@ import {
   deleteComment,updateComment
 } from "../controllers/commentController.js";
 import authMiddleware from "../middleware/authMiddleware.js";
-
-
-
 const router = express.Router();
 
 // Add comment to a video (PROTECTED)
@@ -21,6 +18,4 @@ router.delete("/:id", authMiddleware, deleteComment);
 
 //Update comment  (PROTECTED)
 router.put("/:id", authMiddleware, updateComment);
-
-
 export default router;
