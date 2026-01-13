@@ -32,6 +32,7 @@ export default function Home() {
 
     return matchesCategory && matchesSearch;
   });
+  
 console.log("VIDEOS FROM API:", videos);
 
   return (
@@ -40,9 +41,7 @@ console.log("VIDEOS FROM API:", videos);
         selected={selectedCategory}
         onSelect={setSelectedCategory}
       />
-
       <h2 className="section-title">Recommended Videos</h2>
-
       <div className="video-grid">
         {filteredVideos.length === 0 ? (
           <p>No videos found</p>
