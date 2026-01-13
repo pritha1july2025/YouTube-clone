@@ -26,7 +26,6 @@ export default function Login() {
       alert("Enter valid email and password or Register if you are a new User or ");
     }
   };
-
   return (
     <div className="auth-container">
       <div className="auth-box">
