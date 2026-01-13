@@ -8,7 +8,6 @@ export default function CategoryBar({ selected, onSelect }) {
     "Databases",
     "Tools"
   ];
-
   return (
     <div className="category-bar">
       {categories.map((cat) => (

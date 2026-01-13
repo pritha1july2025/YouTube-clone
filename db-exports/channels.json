@@ -2,6 +2,8 @@
   "_id": {
     "$oid": "6965e0f2a98c296b479c8c31"
   },
+
+  
   "channelName": "Selvapritha",
   "description": "Description: This is a test channel for development.",
   "logo": "",
@@ -22,6 +24,8 @@
   "_id": {
     "$oid": "69663fcb9554a1417f01bffb"
   },
+
+
   "channelName": "Code with Pritha",
   "description": "Learn Full Stack Development with hands-on tutorials on frontend, backend, databases, and tools to build real-world web applications.",
   "logo": "",
