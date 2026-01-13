@@ -60,10 +60,8 @@ export default function Register() {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-
           <button type="submit">Register</button>
         </form>
-
         <p>
           Already have an account? <Link to="/login">Login</Link>
         </p>
