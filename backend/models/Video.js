@@ -22,7 +22,6 @@ const videoSchema = new mongoose.Schema(
     dislikes: { type: Number, default: 51 },
     comments: [
    {
-
     text: {
       type: String,
       required: true
@@ -37,7 +36,6 @@ const videoSchema = new mongoose.Schema(
     }
   }
 ]
-
   },
   { timestamps: true }
 );
