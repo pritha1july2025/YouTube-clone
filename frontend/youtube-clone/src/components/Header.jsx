@@ -7,7 +7,6 @@ import ytLogo from "../assets/YouTube_Logo_2017.svg";
 export default function Header({ toggleSidebar }) {
   const [search, setSearch] = useState("");
   const [hasChannel, setHasChannel] = useState(false);
-
   const navigate = useNavigate();
   const { user, logout } = useAuth();
 
@@ -15,14 +14,13 @@ export default function Header({ toggleSidebar }) {
     const checkChannel = async () => {
       const token = localStorage.getItem("token");
       if (!user || !token) return;
-
       try {
         await axios.get("http://localhost:5000/api/channels/me", {
           headers: {
             Authorization: `Bearer ${token}`
           }
         });
-
+        
         setHasChannel(true);
       } catch (err) {
         setHasChannel(false);
@@ -40,6 +38,7 @@ export default function Header({ toggleSidebar }) {
 
   return (
     <header className="header">
+      
       {/* LEFT */}
       <div className="header-left">
         <button className="menu-btn" onClick={toggleSidebar}>☰</button>
