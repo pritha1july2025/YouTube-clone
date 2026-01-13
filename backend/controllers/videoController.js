@@ -124,17 +124,17 @@ export const editComment = async (req, res) => {
     const { videoId, commentId } = req.params;
 
     if (!text) {
-      return res.status(400).json({ message: "Comment text required" });
+      return res.status(400).json({ message: "Comment text Required" });
     }
 
     const video = await Video.findById(videoId);
     if (!video) {
-      return res.status(404).json({ message: "Video not found" });
+      return res.status(404).json({ message: "Video not Found" });
     }
 
     const comment = video.comments.id(commentId);
     if (!comment) {
-      return res.status(404).json({ message: "Comment not found" });
+      return res.status(404).json({ message: "Comment not Found" });
     }
     if (comment.user.toString() !== req.user.id) {
       return res.status(403).json({ message: "You are not authorized to edit this comment" });
