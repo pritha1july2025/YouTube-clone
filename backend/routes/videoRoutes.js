@@ -7,8 +7,8 @@ import {
   getAllVideos,
   getVideoById, 
   addComment, 
-  editComment    ,deleteComment        
-  // getRecommendedVideos 
+  editComment ,
+  deleteComment  
 } from "../controllers/videoController.js";
 import authMiddleware from "../middleware/authMiddleware.js";
 
