@@ -71,9 +71,7 @@ export default function Channel() {
         onUpload={fetchChannel}
       />
 
-
       <h2 style={{ marginTop: "20px" }}>Your Videos</h2>
-
      
       {/*  Video List */}
       <div className="video-grid">
