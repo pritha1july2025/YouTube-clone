@@ -6,9 +6,7 @@ import Channel from "../models/Channel.js";
 export const getAllVideos = async (req, res) => {
   try {
     const videos = await Video.find({ isChannelVideo: false })
-      
       .sort({ createdAt: -1 });
-
     res.json(videos);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -22,7 +20,7 @@ export const getVideoById = async (req, res) => {
       .populate("channel", "channelName");
 
     if (!video) {
-      return res.status(404).json({ message: "Video not found" });
+      return res.status(404).json({ message: "Videos not found" });
     }
 
     res.json(video);
