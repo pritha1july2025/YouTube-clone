@@ -55,7 +55,7 @@ export const uploadVideo = async (req, res) => {
     res.status(201).json(video);
   } catch (error) {
     console.error("UPLOAD VIDEO ERROR:", error);
-    res.status(500).json({ message: "Video upload failed" });
+    res.status(500).json({ message: "Video Upload failed" });
   }
 };
 
@@ -64,7 +64,7 @@ export const uploadVideo = async (req, res) => {
 export const deleteVideo = async (req, res) => {
   try {
     await Video.findByIdAndDelete(req.params.id);
-    res.json({ message: "Video deleted" });
+    res.json({ message: "Video Deleted" });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -96,7 +96,7 @@ export const addComment = async (req, res) => {
     const { text } = req.body;
 
     if (!text) {
-      return res.status(400).json({ message: "Comment text required" });
+      return res.status(400).json({ message: "Comment text Required" });
     }
 
     const video = await Video.findById(req.params.videoId);
@@ -114,7 +114,7 @@ export const addComment = async (req, res) => {
     res.status(201).json(video.comments);
   } catch (err) {
     console.error("ADD COMMENT ERROR:", err);
-    res.status(500).json({ message: "Failed to add comment" });
+    res.status(500).json({ message: "Failed to Add comment" });
   }
 };
 // EDIT COMMENT
@@ -137,7 +137,7 @@ export const editComment = async (req, res) => {
       return res.status(404).json({ message: "Comment not found" });
     }
     if (comment.user.toString() !== req.user.id) {
-      return res.status(403).json({ message: "You are not authorized to modify this comment" });
+      return res.status(403).json({ message: "You are not authorized to edit this comment" });
     }
 
     comment.text = text;
