@@ -12,7 +12,7 @@ export const createChannel = async (req, res) => {
     const { name, description, banner, logo } = req.body;
 
     if (!name || !description) {
-      return res.status(400).json({ message: "Missing fields" });
+      return res.status(400).json({ message: "Enter All Fields" });
     }
 
     const user = await User.findById(req.user.id);
