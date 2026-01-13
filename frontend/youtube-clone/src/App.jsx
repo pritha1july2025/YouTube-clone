@@ -46,3 +46,4 @@ export default function App() {
     </Routes>
   );
 }
+console.log("Frontend app loaded");
