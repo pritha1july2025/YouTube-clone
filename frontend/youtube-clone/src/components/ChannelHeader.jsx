@@ -3,6 +3,7 @@ export default function ChannelHeader({ channel }) {
 
   return (
     <div className="channel-header">
+
       {/* Banner */}
       <div className="channel-banner">
         {channel.banner ? (
@@ -13,17 +14,20 @@ export default function ChannelHeader({ channel }) {
       </div>
 
       {/* Channel Info Row */}
-      <div className="channel-info-row">
+  <div className="channel-info-row">
+
         {/* Avatar */}
+
         <div className="channel-avatar">
-          {channel.channelName.charAt(0).toUpperCase()}
-        </div>
+           {channel.channelName.charAt(0).toUpperCase()}
+ </div>
 
         {/* Info */}
+
         <div className="channel-info">
          <h2>{channel.channelName}</h2>
-          <p>{channel.description}</p>
-          <span>{channel.subscribers} subscribers</span>
+             <p>{channel.description}</p>
+                  <span>{channel.subscribers} subscribers</span>
         </div>
       </div>
     </div>
