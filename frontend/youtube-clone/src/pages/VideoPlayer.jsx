@@ -3,7 +3,6 @@ import { useParams,Link } from "react-router-dom";
 import axios from "axios";
 import CommentSection from "../components/CommentSection";
 
-
 export default function VideoPlayer() {
   const { id } = useParams();
   const [video, setVideo] = useState(null);
@@ -34,7 +33,7 @@ const [recommended, setRecommended] = useState([]);
   }
 };
 
-
+//Like video
   const like = async () => {
     await axios.put(
       `http://localhost:5000/api/videos/${id}/like`,
@@ -43,6 +42,7 @@ const [recommended, setRecommended] = useState([]);
     );
     fetchVideo();
   };
+//Dislike video
 
   const dislike = async () => {
     await axios.put(
@@ -99,9 +99,6 @@ const [recommended, setRecommended] = useState([]);
     {/*Recommended videos */}
     <div className="video-recommended">
       <h3>Recommended</h3>
-
-      
-
       {recommended.map((v) => (
   <Link
     to={`/video/${v._id}`}
