@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6965e0bda98c296b479c8c2a"
+  },
+  "username": "selvapritha",
+  "email": "selvapritha5598@gmail.com",
+  "password": "$2b$10$VPf28eMVix7z0QHKrBuDqeyZJ8320drW8COviswVJPbXHCkiLwRuq",
+  "avatar": "",
+  "channel": {
+    "$oid": "6965e0f2a98c296b479c8c31"
+  },
+  "createdAt": {
+    "$date": "2026-01-13T06:05:50.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T06:06:42.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69663f0a9554a1417f01bff2"
+  },
+  "username": "Pritha",
+  "email": "pritha123@gmail.com",
+  "password": "$2b$10$ZX4z6QeALCNTHCq18gu5F.6/3MjLAs2ARIrpwqcBbSvmsylAORBWm",
+  "avatar": "",
+  "channel": {
+    "$oid": "69663fcb9554a1417f01bffb"
+  },
+  "createdAt": {
+    "$date": "2026-01-13T12:48:10.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T12:51:23.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6966467adfa85a646b623ba9"
+  },
+  "username": "Pritha V",
+  "email": "prithav@gmail.com",
+  "password": "$2b$10$zuyaRsbXri0UsqTesQx20ea9E6EggPqxkvCx8cJeNQ37THl60N67y",
+  "avatar": "",
+  "channel": null,
+  "createdAt": {
+    "$date": "2026-01-13T13:19:54.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T13:19:54.641Z"
+  },
+  "__v": 0
+}]

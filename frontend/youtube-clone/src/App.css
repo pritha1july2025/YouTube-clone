@@ -1,0 +1,7 @@
+/* body { margin: 0; font-family: Arial; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; padding: 20px; }
+.auth { width: 300px; margin: 50px auto; }
+.auth input { width: 100%; margin: 5px 0; }
+.header { display: flex; justify-content: space-between; padding: 10px; background: #202020; color: white; }
+.sidebar { width: 200px; }
+.player-page { padding: 20px; } */

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "69664808dfa85a646b623bac"
+  },
+  "videoId": {
+    "$oid": "6965c91b90b89c73f4e41cb6"
+  },
+  "user": {
+    "$oid": "6966467adfa85a646b623ba9"
+  },
+  "text": "Nice video!",
+  "createdAt": {
+    "$date": "2026-01-13T13:26:32.012Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T13:26:32.012Z"
+  },
+  "__v": 0
+}]

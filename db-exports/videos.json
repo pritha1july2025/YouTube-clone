@@ -1,0 +1,312 @@
+[{
+  "_id": {
+    "$oid": "6965c8a190b89c73f4e41caf"
+  },
+  "title": "JavaScript Full Course",
+  "description": "JS complete tutorial",
+  "youtubeId": "PkZNo7MFNFg",
+  "thumbnail": "https://i.ytimg.com/vi/PkZNo7MFNFg/maxresdefault.jpg",
+  "category": "JavaScript",
+  "views": 5400,
+  "likes": 343,
+  "dislikes": 15,
+  "isChannelVideo": false,
+  "updatedAt": {
+    "$date": "2026-01-13T12:53:08.198Z"
+  },
+  "__v": 3,
+  "comments": [
+    {
+      "user": {
+        "$oid": "6965e0bda98c296b479c8c2a"
+      },
+      "text": "good video ..",
+      "likes": 0,
+      "_id": {
+        "$oid": "6965f06ea8821bd66603d18d"
+      },
+      "createdAt": {
+        "$date": "2026-01-13T07:12:46.100Z"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6965e0bda98c296b479c8c2a"
+      },
+      "text": "nice",
+      "likes": 0,
+      "_id": {
+        "$oid": "6965f13be03ffd52721396b4"
+      },
+      "createdAt": {
+        "$date": "2026-01-13T07:16:11.173Z"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6965e0bda98c296b479c8c2a"
+      },
+      "text": "nice",
+      "likes": 0,
+      "createdAt": {
+        "$date": "2026-01-13T07:24:33.544Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6965c91b90b89c73f4e41cb1"
+  },
+  "title": "CSS Full Course",
+  "description": "Learn CSS from scratch with real examples",
+  "youtubeId": "yfoY53QXEnI",
+  "thumbnail": "https://i.ytimg.com/vi/yfoY53QXEnI/maxresdefault.jpg",
+  "category": "CSS",
+  "views": 7200,
+  "likes": 480,
+  "dislikes": 8,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c91b90b89c73f4e41cb2"
+  },
+  "title": "Advanced CSS Flexbox & Grid",
+  "description": "Master modern CSS layout techniques",
+  "youtubeId": "JJSoEo8JSnc",
+  "thumbnail": "https://i.ytimg.com/vi/JJSoEo8JSnc/maxresdefault.jpg",
+  "category": "CSS",
+  "views": 4300,
+  "likes": 310,
+  "dislikes": 5,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c91b90b89c73f4e41cb3"
+  },
+  "title": "JavaScript DOM Manipulation",
+  "description": "Learn DOM concepts with hands-on projects",
+  "youtubeId": "0ik6X4DJKCc",
+  "thumbnail": "https://i.ytimg.com/vi/0ik6X4DJKCc/maxresdefault.jpg",
+  "category": "JavaScript",
+  "views": 6100,
+  "likes": 420,
+  "dislikes": 6,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c91b90b89c73f4e41cb4"
+  },
+  "title": "Node.js Full Course",
+  "description": "Backend development with Node.js",
+  "youtubeId": "TlB_eWDSMt4",
+  "thumbnail": "https://i.ytimg.com/vi/TlB_eWDSMt4/maxresdefault.jpg",
+  "category": "Backend Development",
+  "views": 8800,
+  "likes": 640,
+  "dislikes": 11,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c91b90b89c73f4e41cb6"
+  },
+  "title": "Git & GitHub Full Tutorial",
+  "description": "Version control with Git and GitHub",
+  "youtubeId": "RGOj5yH7evk",
+  "thumbnail": "https://i.ytimg.com/vi/RGOj5yH7evk/maxresdefault.jpg",
+  "category": "Tools",
+  "views": 9500,
+  "likes": 720,
+  "dislikes": 9,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cb9"
+  },
+  "title": "Web Development Full Course",
+  "description": "Complete web development roadmap from scratch",
+  "youtubeId": "Q33KBiDriJY",
+  "thumbnail": "https://i.ytimg.com/vi/Q33KBiDriJY/maxresdefault.jpg",
+  "category": "Web Development",
+  "views": 12500,
+  "likes": 860,
+  "dislikes": 14,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cba"
+  },
+  "title": "Responsive Web Design",
+  "description": "Build responsive websites using HTML & CSS",
+  "youtubeId": "srvUrASNj0s",
+  "thumbnail": "https://i.ytimg.com/vi/srvUrASNj0s/maxresdefault.jpg",
+  "category": "Web Development",
+  "views": 6800,
+  "likes": 490,
+  "dislikes": 7,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cbb"
+  },
+  "title": "Backend Development with Node.js",
+  "description": "Learn backend development using Node.js & Express",
+  "youtubeId": "Oe421EPjeBE",
+  "thumbnail": "https://i.ytimg.com/vi/Oe421EPjeBE/maxresdefault.jpg",
+  "category": "Backend Development",
+  "views": 9100,
+  "likes": 670,
+  "dislikes": 10,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cbc"
+  },
+  "title": "REST API Development",
+  "description": "Create RESTful APIs using Express.js",
+  "youtubeId": "pKd0Rpw7O48",
+  "thumbnail": "https://i.ytimg.com/vi/pKd0Rpw7O48/maxresdefault.jpg",
+  "category": "Backend Development",
+  "views": 7400,
+  "likes": 520,
+  "dislikes": 8,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cbd"
+  },
+  "title": "Git & GitHub for Developers",
+  "description": "Essential Git and GitHub tools for developers",
+  "youtubeId": "RGOj5yH7evk",
+  "thumbnail": "https://i.ytimg.com/vi/RGOj5yH7evk/maxresdefault.jpg",
+  "category": "Tools",
+  "views": 11200,
+  "likes": 830,
+  "dislikes": 11,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cbe"
+  },
+  "title": "Developer Tools & VS Code Tips",
+  "description": "Boost productivity using VS Code and dev tools",
+  "youtubeId": "WPqXP_kLzpo",
+  "thumbnail": "https://i.ytimg.com/vi/WPqXP_kLzpo/maxresdefault.jpg",
+  "category": "Tools",
+  "views": 5900,
+  "likes": 410,
+  "dislikes": 6,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cbf"
+  },
+  "title": "MongoDB Full Course",
+  "description": "Learn MongoDB from basics to advanced",
+  "youtubeId": "ofme2o29ngU",
+  "thumbnail": "https://i.ytimg.com/vi/ofme2o29ngU/maxresdefault.jpg",
+  "category": "Databases",
+  "views": 8800,
+  "likes": 640,
+  "dislikes": 9,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965c99990b89c73f4e41cc0"
+  },
+  "title": "SQL Database Tutorial",
+  "description": "Master SQL queries and database design",
+  "youtubeId": "HXV3zeQKqGY",
+  "thumbnail": "https://i.ytimg.com/vi/HXV3zeQKqGY/maxresdefault.jpg",
+  "category": "Databases",
+  "views": 7600,
+  "likes": 570,
+  "dislikes": 8,
+  "isChannelVideo": false
+},
+{
+  "_id": {
+    "$oid": "6965e32aa6e7a8c0c8fb92af"
+  },
+  "title": "Express.js REST API",
+  "description": "\"Build REST APIs using Node and Express\"",
+  "youtubeId": "L72fhGm1tfE",
+  "thumbnail": "https://i.ytimg.com/vi/L72fhGm1tfE/hqdefault.jpg",
+  "category": "NODE JS",
+  "channel": {
+    "$oid": "6965e0f2a98c296b479c8c31"
+  },
+  "isChannelVideo": true,
+  "views": 0,
+  "likes": 0,
+  "dislikes": 0,
+  "createdAt": {
+    "$date": "2026-01-13T06:16:10.636Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T06:16:10.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69663eb89554a1417f01bfdf"
+  },
+  "title": "Developer Tools & VS Code Tips",
+  "description": "Boost productivity using VS Code and dev tools",
+  "youtubeId": "WPqXP_kLzpo",
+  "thumbnail": "https://i.ytimg.com/vi/WPqXP_kLzpo/hqdefault.jpg",
+  "category": "Tools",
+  "channel": {
+    "$oid": "6965e0f2a98c296b479c8c31"
+  },
+  "isChannelVideo": true,
+  "views": 0,
+  "likes": 0,
+  "dislikes": 0,
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-01-13T12:46:48.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T12:46:48.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696653ec39824c0464af4f84"
+  },
+  "title": "Full Stack Development Basics",
+  "description": "Learn the fundamentals of Full Stack Development in a simple and practical way.\n",
+  "youtubeId": "dQw4w9WgXcQ",
+  "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+  "category": " Web Development",
+  "channel": {
+    "$oid": "69663fcb9554a1417f01bffb"
+  },
+  "isChannelVideo": true,
+  "views": 657,
+  "likes": 48,
+  "dislikes": 53,
+  "comments": [],
+  "createdAt": {
+    "$date": "2026-01-13T14:17:17.004Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T14:17:33.954Z"
+  },
+  "__v": 0
+}]

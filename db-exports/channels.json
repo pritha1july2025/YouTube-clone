@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6965e0f2a98c296b479c8c31"
+  },
+  "channelName": "Selvapritha",
+  "description": "Description: This is a test channel for development.",
+  "logo": "",
+  "banner": "https://picsum.photos/1200/300",
+  "owner": {
+    "$oid": "6965e0bda98c296b479c8c2a"
+  },
+  "subscribers": 0,
+  "createdAt": {
+    "$date": "2026-01-13T06:06:42.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T06:06:42.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69663fcb9554a1417f01bffb"
+  },
+  "channelName": "Code with Pritha",
+  "description": "Learn Full Stack Development with hands-on tutorials on frontend, backend, databases, and tools to build real-world web applications.",
+  "logo": "",
+  "banner": "https://dummyimage.com/2560x1440/0f172a/38bdf8&text=Full+Stack+Development",
+  "owner": {
+    "$oid": "69663f0a9554a1417f01bff2"
+  },
+  "subscribers": 0,
+  "createdAt": {
+    "$date": "2026-01-13T12:51:23.617Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-13T12:51:23.617Z"
+  },
+  "__v": 0
+}]
