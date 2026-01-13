@@ -15,6 +15,7 @@ export default function VideoCard({ video }) {
 <p className="channel-name">
   {video.channel?.channelName}
 </p>       
+
  <p className="views">
   {video.views} views •{" "}
   {video.createdAt
@@ -22,7 +23,7 @@ export default function VideoCard({ video }) {
     : "Recently uploaded"}      
 </p>
 
-      </div>
+  </div>
     </Link>
   );
 }
