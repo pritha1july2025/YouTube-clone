@@ -19,7 +19,7 @@ export default function UploadVideo({ channelId, onUpload }) {
         youtubeId,
         category,
         channel: channelId,  
-         isChannelVideo: true,
+        isChannelVideo: true,
         thumbnail: `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`
       },
       {
@@ -33,6 +33,7 @@ export default function UploadVideo({ channelId, onUpload }) {
       alert("Upload failed");
   }
 };
+
   return (
     <div>
       <div className="upload-card">
@@ -44,6 +45,7 @@ export default function UploadVideo({ channelId, onUpload }) {
             placeholder="Video Title"
             onChange={e => setTitle(e.target.value)}
           />
+
 
           <input
             type="text"
