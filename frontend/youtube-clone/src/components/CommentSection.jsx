@@ -59,11 +59,9 @@ export default function CommentSection({ videoId }) {
     );
 
     if (id === editingId) cancelEdit();
-
     fetchComments();
   };
-
-  useEffect(() => {
+ useEffect(() => {
     fetchComments();
   }, [videoId]);
 
