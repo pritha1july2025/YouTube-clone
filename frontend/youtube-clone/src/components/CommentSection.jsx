@@ -51,7 +51,7 @@ export default function CommentSection({ videoId }) {
     cancelEdit();
     fetchComments();
   };
-
+//delete
   const deleteComment = async (id) => {
     await axios.delete(
       `http://localhost:5000/api/comments/${id}`,
