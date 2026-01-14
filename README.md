@@ -70,3 +70,7 @@ Mobile: Single-column layout
 =>Purpose of the Project:
 
 This project demonstrates full-stack web development skills including REST API design, authentication, database relationships, and responsive UI development.
+
+GitHub link:
+https://github.com/pritha1july2025/YouTube-clone
+
